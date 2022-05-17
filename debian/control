@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: pr2-core-noetic
 Architecture: any
-Depends: python, ros-noetic-pr2-robot, ros-noetic-ros-core, ros-noetic-openni-launch, pr2-core (>= 0.5.31), pr2-ft
+Depends: python3, ros-noetic-pr2-robot, ros-noetic-ros-core, ros-noetic-openni-launch, pr2-core (>= 0.5.31), pr2-ft
 Description: Provides ROS environment configuration files for PR2.
 Provides: ${diverted-files}, pr2-core-impl
 Conflicts: ${diverted-files}
