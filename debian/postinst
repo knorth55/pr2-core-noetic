@@ -20,7 +20,7 @@ update_urdf()
             #Generate a nominal pr2.xml
 	    tgt_urdf=/etc/ros/noetic/urdf/robot.xml
 	    new_urdf=/etc/ros/noetic/urdf/robot_uncalibrated_${ver_str}.xml
-	    rosrun xacro xacro.py ${new_xacro} > ${new_urdf}
+	    rosrun xacro xacro ${new_xacro} > ${new_urdf}
 	    
             # Create link from robot.xml
 	    if [ ! -e ${tgt_urdf} ]; then
