@@ -1,0 +1,5 @@
+debian/.debhelper/*
+debian/files
+debian/pr2-core-noetic.debhelper.log
+debian/pr2-core-noetic.substvars
+debian/pr2-core-noetic/*
